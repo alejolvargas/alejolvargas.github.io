@@ -1,0 +1,336 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+}
+.descuento {
+  background: #1cd1b0;
+  margin: 0;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+/* header */
+header {
+  background: #00669f;
+  height: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 99999990;
+}
+
+header h1 {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  padding-left: 8px;
+  padding-top: 6px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: #000000;
+  color: #ffffff;
+}
+.menu {
+  height: 30px;
+  margin-top: 12px;
+  text-align: right;
+  margin-right: 17px;
+  line-height: 29px;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu li a {
+  color: #ffffff;
+}
+.menu li a:hover {
+  font-size: 18px;
+}
+/* dimensiones del main */
+main {
+  margin: 20px 100px;
+}
+
+/* dimenciones de la carta */
+.card {
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  display: inline-block;
+  height: 460px;
+  margin: 15px;
+  position: relative;
+  width: 320px;
+}
+
+/* contenedor fondo carta */
+
+.box_imagen {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  height: 193px;
+  width: 100%;
+}
+.imagen1 {
+  background-image: url(../material_clase7/bg-batman.jpg);
+}
+.imagen2 {
+  background-image: url(../material_clase7/bg-wonderw.jpg);
+}
+
+.imagen3 {
+  background-image: url(../material_clase7/bg-superman.jpg);
+}
+
+/* contenido secundario carta perfil del personaje */
+
+.perfil {
+  border-radius: 94px;
+  position: absolute;
+  top: 24%;
+  left: 23%;
+  width: 150px;
+}
+.perfil:hover {
+  width: 160px;
+}
+
+.info_perfil h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.info_perfil p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 12px;
+}
+.info_perfil a {
+  background-color: #00669f;
+  color: #ffffff;
+  width: 148px;
+  height: 20px;
+  text-decoration: none;
+  display: block;
+  margin: 14px auto;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.info_perfil a:hover {
+  background-color: #dadada;
+  color: #00669f;
+}
+footer {
+  background: #00669f;
+  height: 70px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 22px;
+}
+/*Icono me gusta */
+.fa-heart {
+  color: red;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 25px;
+}
+/*Icono de  agregar */
+.fa-plus-circle {
+  color: #00669f;
+  position: fixed;
+  right: 10%;
+  bottom: 35%;
+  font-size: 55px;
+}
+.fa-plus-circle:hover {
+  font-size: 60px;
+  color: #00659f78;
+}
+
+/* stilo para login contacto y registro */
+.box_registro_login_contacto {
+  margin: 95px auto;
+  width: 500px;
+}
+#nombre {
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+  width: 100%;
+}
+#email {
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+  width: 100%;
+}
+#password {
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+  width: 100%;
+}
+#pais {
+  margin-top: 30px;
+  height: 30px;
+  padding-left: 26px;
+  width: 100%;
+}
+#enviar_login {
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #1cd1b0;
+  width: 100%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+.accion_registro {
+  background: #888888;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  width: 248px;
+}
+#mensaje {
+  height: 30px;
+  margin-top: 30px;
+  padding-left: 26px;
+  width: 100%;
+}
+.accion_submit {
+  background-color: #1cd1b0;
+  color: #000000;
+}
+.box_registro_login_contacto h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  margin: 10px 0;
+}
+.box_registro_login_contacto p {
+  text-align: center;
+}
+
+/* añadir super heroe */
+.contenedor_heroe {
+  background-color: #00669f;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-top: 50px;
+  width: 954px;
+}
+.caja_heroe h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+}
+.caja_heroe p {
+  font-size: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.form2,
+.form1 {
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+.vert {
+  display: block;
+}
+
+.caja_heroe {
+  padding: 1px 91px;
+}
+.caja_heroe h3 {
+  text-align: center;
+}
+
+form input,
+form select {
+  height: 48px;
+  border-radius: 15.3407px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  height: 10px;
+  border-radius: 15.3407px;
+  font-style: normal;
+  font-weight: 300;
+  width: 10px;
+}
+
+form textarea {
+  border-radius: 15.3407px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  width: 100%;
+}
+
+input[type="file"] {
+  font-style: normal;
+  font-weight: 300;
+  height: 48px;
+  border-radius: 15.3407px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.separador {
+  height: 1px;
+  background-color: #cccccc;
+  margin: 19px 0;
+  width: 100%;
+}
+.enviar_super {
+  display: block;
+  font-size: 36px;
+  background-color: #1cd1b0;
+  height: 68px;
+  border: none;
+  margin: 30px auto;
+  width: 52%;
+}
