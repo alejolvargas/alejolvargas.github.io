@@ -55,7 +55,7 @@ nav {
   font-size: 18px;
 }
 /* dimensiones del main */
-main {
+.contenedor_cards {
   margin: 20px 100px;
 }
 
@@ -250,9 +250,10 @@ footer p {
   background-color: #00669f;
   border-radius: 50px;
   color: #ffffff;
-  margin-top: 50px;
-  width: 954px;
+  width: 930px;
+  margin: 46px auto;
 }
+
 .caja_heroe h3 {
   font-size: 40px;
   font-style: normal;
